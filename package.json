@@ -2,10 +2,25 @@
   "name": "employee-tracker",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "launch": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
   },
   "author": "jsparrowio <jsparrowio@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.4",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/pg": "^8.11.10",
+    "typescript": "^5.6.3"
+  }
 }
