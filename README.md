@@ -35,6 +35,8 @@ To use, make sure you are CDed to the directory the source files live in, then r
 
 NOTE: If you did NOT run the <code>seed.sql</code> file to generate example data, please ensure you generate your own data IN THE FOLLOWING ORDER: Departments first, then roles, then employees. Also, when generating employees, please generate managers FIRST, then generate direct reports.
 
+If further instruction is needed, please view walkthrough video: [here](https://drive.google.com/file/d/1YLg25Ke8rd-0w-TSoUizSfaT0tHPLa4L/view)
+
 ## License
 This project uses MIT License.
 
