@@ -442,7 +442,7 @@ async function changeRoleSalary() {
         .then(async resp => {
             let roleName;
             for (let i = 0; i < choicesArr.length; i++) {
-                if (resp.role_id === choicesArr[i].value) {
+                if (resp.roleID === choicesArr[i].value) {
                     roleName = choicesArr[i].name;
                 }
             }
