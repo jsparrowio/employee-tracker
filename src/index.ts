@@ -230,7 +230,7 @@ async function deleteDepartment() {
         .then(async resp => {
             let departmentName;
             for (let i = 0; i < choicesArr.length; i++) {
-                if (resp.department_id === choicesArr[i].value) {
+                if (resp.departmentID === choicesArr[i].value) {
                     departmentName = choicesArr[i].name;
                 }
             }
@@ -372,7 +372,7 @@ async function deleteRole() {
         .then(async resp => {
             let roleName;
             for (let i = 0; i < choicesArr.length; i++) {
-                if (resp.role_id === choicesArr[i].value) {
+                if (resp.roleID === choicesArr[i].value) {
                     roleName = choicesArr[i].name;
                 }
             }
